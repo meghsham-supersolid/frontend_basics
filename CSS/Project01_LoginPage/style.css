@@ -1,0 +1,60 @@
+body{
+    color:#FFFFFF;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-navbar{
+    height: 10vh;
+}
+
+.web-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+}
+
+h1{
+    color: lightseagreen;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    border: 2px solid white;
+}
+
+button{
+    background-color: lightseagreen;
+    padding: 10px;
+    color:white;
+    font-size: medium;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: darkseagreen;
+    padding: 10px;
+    color:whitesmoke;
+    font-size: large;
+    font-weight: 900; 
+}
