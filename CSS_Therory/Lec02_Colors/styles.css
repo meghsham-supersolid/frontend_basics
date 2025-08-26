@@ -1,0 +1,47 @@
+.named-colors {
+  color: red;
+}
+
+.rgb-colors {
+  color: rgb(255, 165, 0);
+  /* 
+        creates color with red, green, blue value
+    */
+}
+
+.rgb-colors-with-transparency {
+  color: rgba(0, 256, 0, 0.75);
+  /* 
+    creates color with red, green, blue amd alpha value where alpha is transparancy
+    on top of rgb adds transparency to text */
+}
+
+.hex-colors {
+  color: #fff700;
+  /* 
+        creates color with hex values in first 2 digit denote red, next 2 green, last green
+    */
+}
+
+.hex-colors-with-transparency {
+  color: #6e4a1fc0;
+  /* 
+        creates color with hex values in first 2 digit denote red, next 2 green, next green and last 2 denote alpha value with are used for transparency
+    */
+}
+
+.hsl-colors{
+   color: hsl(181, 77%, 57%);
+}
+
+.hsl-colors-with-transparency {
+ color: hsla(237, 74%, 33%, 60%);
+}
+
+.color-properties{
+    color: red;
+    background-color:yellow;
+    border: 2px;
+    border-style: solid;
+    border-color: blue;
+}
