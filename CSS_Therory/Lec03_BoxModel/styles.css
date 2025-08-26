@@ -1,0 +1,45 @@
+.box-zero {
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+  /* 
+  adding dimension to element
+  */
+}
+
+.box-one {
+  width: 100px;
+  height: 100px;
+
+  border-width: 5px;
+  border-style: dashed;
+  border-color: #ffffff;
+  border-radius: 20%;
+  /* 
+  adding border to element
+  */
+}
+
+.box-two {
+  width: 100px;
+  height: 100px;
+  border: 5px dashed #963c3c;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+  /* 
+    adding border to element with short hand and also adding margin & padding
+  */
+}
+
+.box-three {
+  width: 100px;
+  height: 100px;
+  border: 5px dashed #3c9673;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  /* 
+    resting element to grow with added padding and sticking to the dimensions given
+  */
+}
