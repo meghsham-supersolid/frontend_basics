@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap");
+
+.paraghraph-font-size {
+  font-size: 25px;
+  /* 
+  font-size propperty describs what should be the size of a font
+  takes the input in Xpx or namedSizes 
+  */
+}
+
+.paraghraph-font-weight {
+  font-weight: 600;
+  /* 
+  font-weight property describs how boldness of font
+  takes input in 100-900
+  */
+}
+
+.paraghraph-font-style {
+  font-style: oblique;
+  /* 
+  font-style changes the apperance of the font to italic or oblique
+  italic will have the italizised font when letter are differently typed and oblique is just right tilted version of the same font  
+  */
+}
+
+.paraghraph-font-family {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* 
+  font-family give the font to the text
+  the fonts give are fallback fonts means is the first font is unavaible then it applies second so on and so forth
+  */
+}
+
+.paragraph-line-height {
+  line-height: 50px;
+  /* 
+    line-height adds the spacing beween 2 neigbouring lines 
+  */
+}
+
+.using-google-font-through-linking {
+  font-family: "Fira Code";
+  /* 
+    with this method we link the font in html header and use the font 
+*/
+}
+
+.using-google-font-through-import {
+  font-family: "Playwrite MX Guides";
+  /* 
+    with this method we import the font in css file and use it 
+  */
+}
