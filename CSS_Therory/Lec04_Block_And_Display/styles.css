@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* keeps the element limited to its size only padding is not calculated separately  */
+}
+.border_applied {
+  border: 2px solid black;
+  margin: 4px;
+}
