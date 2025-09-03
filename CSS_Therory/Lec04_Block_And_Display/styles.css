@@ -1,9 +1,74 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* keeps the element limited to its size only padding is not calculated separately  */
 }
-.border_applied {
-  border: 2px solid black;
-  margin: 4px;
+
+.box-sizing-container {
+  border: 2px solid red;
+}
+
+.inner-box {
+  height: 200px;
+  width: 200px;
+  border: 5px solid blueviolet;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+.box-one {
+  box-sizing: content-box;
+  /* Default Property border and padding adds up in the dimensions */
+}
+
+.box-two {
+  box-sizing: border-box; /* with this property given the element does not change with added or reduced padding and  content  */
+}
+
+.inline-box {
+  background-color: pink;
+  border: 1px solid red;
+  margin: 10px;
+}
+
+.child-of-inline-box {
+  display: inline;
+  /* The element doesn't start on a new line and only occupy just the width it requires. You can't set the width or height explicitly. */
+  height: 100px;
+  width: 1000px;
+  background-color: lightgreen;
+  border: 1px solid darkgreen;
+  margin: 5px;
+}
+
+.inline-block-box {
+  background-color: pink;
+  border: 1px solid red;
+  margin: 10px;
+}
+
+.child-of-inline-block-box {
+  display: inline-block;
+  /* It's formatted just like the inline element, where it doesn't start on a new line. BUT, you can set width and height values. if there is enough space to fit in another inline element than the next element is added on the same line*/
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  border: 1px solid darkgreen;
+  margin: 5px;
+}
+
+.block-box {
+  background-color: pink;
+  border: 1px solid red;
+  margin: 10px;
+}
+
+.child-of-block-box {
+  display: block;
+  /* The element will start on a new line and occupy the full width available. And you can set width and height values. */
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  border: 1px solid darkgreen;
+  margin: 5px;
 }

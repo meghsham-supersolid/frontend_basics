@@ -4,39 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="block-elements"> 
-        <!-- block element always take full width available  -->
-      <div class="border_applied">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
-        libero?
-      </div>
-      <div class="border_applied">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
-        libero?
-      </div>
-       <div class="border_applied">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
-        libero?
-      </div>
+    <div class="box-sizing-container">
+      <div class="inner-box box-one">box-sizing: border-box;</div>
+      <div class="inner-box box-two">box-sizing: content-box;</div>
+    </div>
 
+    <div class="inline-box">
+      display: inline;
+      <div class="child-of-inline-box">10</div>
+      <div class="child-of-inline-box">20</div>
+      <div class="child-of-inline-box">30</div>
+    </div>
 
-      <div class="inline-elements">
-        <!-- inline element take only needed width and if space let another sibling inline element takes the place -->
-      <span class="border_applied">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
-        libero?
-      </span>
-      <span class="border_applied">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
-        libero?
-      </span>
-      <span class="border_applied">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
-        libero?
-      </span>
+    <div class="inline-block-box">
+      display: inline-block;
+      <div class="child-of-inline-block-box">100</div>
+      <div class="child-of-inline-block-box">200</div>
+      <div class="child-of-inline-block-box">300</div>
+    </div>
+
+    <div class="block-box">
+      display: block;
+      <div class="child-of-block-box">1000</div>
+      <div class="child-of-block-box">2000</div>
+      <div class="child-of-block-box">3000</div>
     </div>
   </body>
 </html>
