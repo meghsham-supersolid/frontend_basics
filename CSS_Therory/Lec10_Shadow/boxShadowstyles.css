@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+.containers {
+  height: 300px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed white;
+}
+
+#box-1 {
+  /* box-shadow : xOffset yOffset blur-radius color  */
+  box-shadow: 10px 15px 10px gray;
+}
+
+#box-2 {
+  /* box-shadow : xOffset yOffset blur-radius color  */
+  /* negative values are used for only x and y axis offsets */
+  box-shadow: -10px -15px 10px gray;
+}
+
+#box-3 {
+  /* box-shadow : xOffset yOffset color  */
+  /* spread radios skipped to not give blurry effect to shadow */
+  box-shadow: 10px 15px gray;
+}
+
+#box-4 {
+  /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+  box-shadow: 12px 12px 20px 5px gray;
+}
+
+#box-5 {
+  /* box-shadow: inset offset-x offset-y blur-radius spread-radius color; */
+  /* when added inset it adds the shadow inside the box */
+  box-shadow: inset 12px 12px 20px 5px gray;
+}
+#box-6 {
+  /*offset-x offset-y blur-radius spread-radius color ,box-shadow: inset offset-x offset-y blur-radius spread-radius color; */
+  /* adding multiple shadows */
+  box-shadow: 12px 12px 20px 5px gray, inset 12px 12px 20px 5px gray;
+}
