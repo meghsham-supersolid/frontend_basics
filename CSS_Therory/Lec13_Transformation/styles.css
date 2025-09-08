@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: lightskyblue;
+  color: darkblue;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+.container {
+  height: 300px;
+  border: 2px solid darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: red blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 2s ease-in-out;
+}
+
+#box-1:hover {
+  /* translate is used to move the element in x and y directions also takes negative values */
+  transform: translate(-50px, -50px);
+}
+
+#box-2:hover {
+  /* rotate is used to rotate the element in degree also takes negative values */
+  transform: rotate(30deg);
+}
+
+#box-3:hover {
+  /* scale is used to make element larger in size * X also takes negative values, on negative values it make element small to X but after that scales it also */
+  transform: scale(4, 2);
+  /* transform: scaleX(2); */
+  /* transform: scaleY(2); */
+}
+
+#box-4:hover {
+  /* The skewX() function skews an element along the X-axis by the given angle.*/
+  transform: skew(10deg, 15deg);
+  /* transform: skewX(10deg); */
+  /* transform: skewY(15deg); */
+}
+
+#box-5:hover {
+  transform: matrix(2, -0.3, 0, 1, 0, 0);
+  /* transform: matrix(
+    horizontallyScales, verticallySkews, 
+    horizontallySkews, verticallyScales, 
+    elementMovesHorizontally, elementMovesVertically
+    )
+*/
+}
+
